@@ -38,6 +38,7 @@ $categorias = getCategorias();
             <a class="navbar-brand" href="admin.php">Galería Admin</a>
             <div class="d-flex">
                 <span class="navbar-text me-3"><?= htmlspecialchars($_SESSION['admin_usuario']) ?></span>
+                <a href="cambiar_password.php" class="btn btn-outline-warning btn-sm me-2">Cambiar Password</a>
                 <a href="logout.php" class="btn btn-outline-light btn-sm">Cerrar sesión</a>
             </div>
         </div>

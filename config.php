@@ -63,7 +63,7 @@ function isAdmin() {
 
 function requireAdmin() {
     if (!isAdmin()) {
-        header('Location: login.php');
+        header('Location: admin/login.php');
         exit;
     }
 }
